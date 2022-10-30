@@ -34,7 +34,7 @@ El nodo contiene "val" y un puntero o un link al siguiente nodo, por defecto el 
 >>>         self.next = val
 ```
 
-La clase lista, necesita sólamente un puntero o link que apunte al primer nodo de la lista. Adicionalmente vamos a agregar la propiedad length, para poder saber siempre la longitud de nuestra lista enlazada. Al crear una lista va a estar vacía por o tanto la cabeza es `null` y _length_ es cero.
+La clase lista, necesita sólamente un puntero o link que apunte al primer nodo de la lista. Adicionalmente vamos a agregar la propiedad length, para poder saber siempre la longitud de nuestra lista enlazada. Al crear una lista va a estar vacía por lo tanto la cabeza es `null` y _length_ es cero.
 
 ```python
 >>> class LinkedList:
